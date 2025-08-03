@@ -4,9 +4,9 @@ import time as t
 
 p = print
 
-wlacz = 'x'         # Aktywacja
-wyjscie = '='       # De-aktywacja
-delay = 0.01        # Delay przed zmiana
+wlacz = 'x'         # Aktywacja            | bind x
+wyjscie = '='       # De-aktywacja         | bind =
+delay = 0.01        # Delay przed zmiana   | delay
 
 def jasnysad(event):
     if event.name == wlacz and event.event_type == 'down':
@@ -42,4 +42,3 @@ p(r"""
                         bind: X
 """)
 k.wait(wyjscie)
-#       ^ bind off
