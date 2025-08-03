@@ -24,9 +24,9 @@ def jasnysad(event):
         
         t.sleep(0.01)
         
-        k.press('9')
+        k.press('R')
         py.rightClick()
-        k.release('9')
+        k.release('R')
         
         py.moveTo(s_x, s_y)
         t.sleep(delay)
@@ -42,3 +42,4 @@ p(r"""
                         bind: X
 """)
 k.wait(wyjscie)
+
