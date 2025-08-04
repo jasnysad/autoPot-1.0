@@ -8,7 +8,7 @@ p = print
 
 wlacz = 'x'         # Aktywacja                | bind x
 wyjscie = '='       # De-aktywacja             | bind =
-delay = 0.01        # Delay przed zmiana slotu 
+delay = 0.05        # Delay przed zmiana slotu 
 cooldown = 0.5      # Minimalny odstęp czasowy między kolejnymi aktywacjami funkcji ruch/klik
 ltt = 0             # Timestamp ostatniego wywołania funkcji, potrzebny do sprawdzenia cooldown
 
@@ -49,4 +49,5 @@ p(r"""
                         bind: X
 """)
 k.wait(wyjscie)
+
 
