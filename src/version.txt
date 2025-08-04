@@ -15,12 +15,12 @@ VSVersionInfo(
       StringTable(
         '040904B0',
         [StringStruct('CompanyName', 'JasnySad'),
-        StringStruct('FileDescription', 'autoPot1.0 for 4fth'),
-        StringStruct('FileVersion', '1.0.0.0'),
+        StringStruct('FileDescription', 'autoPot1.2 for 4fth'),
+        StringStruct('FileVersion', '1.2.0.0'),
         StringStruct('InternalName', 'autoPot'),
         StringStruct('OriginalFilename', 'autoPot.exe'),
-        StringStruct('ProductName', 'autoPot1.0'),
-        StringStruct('ProductVersion', '1.0'),
+        StringStruct('ProductName', 'autoPot1.2'),
+        StringStruct('ProductVersion', '1.2'),
         StringStruct('LegalCopyright', '© JasnySad 2025')]
         )
       ]),
