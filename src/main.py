@@ -28,12 +28,12 @@ def jasnysad(event):
 
         ruch(900)
 
-        k.send('1')
+        k.send('6')
         mouse.click(Button.right)
 
         t.sleep(delay)
 
-        k.send('2')
+        k.send('r')
         mouse.click(Button.right)
 
         ruch(-900)
@@ -49,3 +49,4 @@ p(r"""
                         bind: X
 """)
 k.wait(wyjscie)
+
